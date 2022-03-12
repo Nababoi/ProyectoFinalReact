@@ -4,7 +4,7 @@ const products = [
       name: "Agua Con Gas 1,5 lts",
       stock: 0,
       cost: 140,
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
+      description: "hola",
       capacity: 1500,
       image: [
         "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp"

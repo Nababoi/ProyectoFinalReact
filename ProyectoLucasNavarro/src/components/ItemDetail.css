@@ -1,0 +1,109 @@
+.ContenedorProductoPadre{
+    background-color: white;
+    padding: 2rem !important;
+}
+.ContenedorProducto{
+    padding: 0 !important;
+}
+.DescripcionProducto{
+    padding-top: 3rem;
+    background-color: #e0e0e0;
+    margin: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70% !important;
+}
+.TituloProducto{
+    font: 2rem;
+    font-weight: 600 !important;
+    text-align: center;
+}
+.Descripcion{
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 1.7rem;
+    padding: 1rem 5rem 1rem 5rem;
+}
+.PrecioStock{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.Contador{
+    background-color: #aeaeae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30% !important;
+}
+.ContenedorProductoContador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cWZnjY {
+    -webkit-flex: none !important; 
+    -ms-flex: 1;
+     flex: none !important;
+     }
+     .evGowd{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .gJbTHe{
+        display: flex;
+        flex-wrap: wrap;
+    }
+@media screen and (max-width: 1100px){
+    .TituloProducto{
+        font-size: 3.5vw;
+    }
+    .DescripcionProducto{
+        height: 70%;
+    }
+    .Contador{
+        height: 30%;
+    }
+    .Descripcion{
+        font-size: 2.2vw;
+        padding: 0;
+    }
+    .PrecioStock{
+        display: flex;
+        flex-direction: column;
+    }
+    .Precio{
+        font-size: 3.5vw !important;
+    }
+    .MuiSvgIcon-root{
+        width: 3vw !important;
+    }
+    .kDciIr{
+        font-size: 3vw !important;
+    }
+    .egVXNf{
+        flex-direction: column;
+    }
+    .cWZnjY {
+    -webkit-flex: none !important; 
+    -ms-flex: 1;
+     flex: none !important;
+     width: 50%;
+     }
+}
+@media screen and (max-width: 485px){
+.TituloProducto, .Precio{
+    font-size: 5.5vw;
+}
+.Descripcion{
+    font-size: 2.8vw;
+}
+.egVXNf{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+}

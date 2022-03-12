@@ -1,0 +1,8 @@
+.Titulo:hover{
+    letter-spacing: 0.3rem;
+    transition: 1s;
+}
+.Links:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
